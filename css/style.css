@@ -11,8 +11,17 @@ body {
 .jumbotron img {
     width: 200px;
     border: 5px solid #666;
-
+    
 }
+
+
+.jumbotron p,h1 {
+    font-family: georgia; color: deepskyblue;
+    
+}
+
+
+
 
 hr {
     width: 250px;
