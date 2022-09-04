@@ -5,6 +5,7 @@ html {
 
 body {
     margin-bottom: 100px;
+    margin-top: 30px;
 }
 
 
@@ -59,3 +60,5 @@ footer p {
 footer p i {
     color: salmon;
 }
+
+
