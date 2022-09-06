@@ -1,23 +1,32 @@
+
 // even saat meng scroll page --//
-$('.page-scroll').on ('click', function(){
+$('.page-scroll').on('click', function(e){
 
 
 // ambil isi href
-var tujuan = $(this).attr('href');
+var tujuan = $(page-scroll).attr('href');
 
 // tangkap elemen ybs
-var elemenTujuan = $(tujuan);
+var elementujuan = $(tujuan);
 
 
 // pindah scroll
 $('body').animate({
-    scrollTop: elemenTujuan.offset().top - 50
-}, 1000, 'easeInOutExpo');
+    scrollTop: elementujuan.offset().top - 50
+}, 1250, 'easeInOutExpo');
+
+// e.preventDefault();
 
 });
 
 
 // parallax
+// about
+$(window).on('load', function() {
+    $('.pkiri').addClass('pmuncul');
+    $('.pkanan').addClass('pmuncul');
+});
+
 $(window).scroll(function() {
     var wScroll = $(this).scrollTop();
 
