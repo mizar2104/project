@@ -53,6 +53,15 @@ section {
 
 .portfolio {
     background-color: #eee;
+
+}
+
+.portfolio .thumbnail {
+    opacity: 0;
+}
+
+.portfolio .thumbnail.muncul {
+    opacity: 1;
 }
 
 
